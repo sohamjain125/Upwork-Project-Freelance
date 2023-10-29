@@ -1,0 +1,61 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100;200;300;400;500;600;700;800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100;200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body.no-extra {
+  overflow: hidden;
+}
+
+.form-control {
+  display: block;
+  /* width: 100%; */
+  min-width: 200px;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  line-height: 1.25;
+  background-color: #fff;
+  background-image: none;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: 0.25rem;
+  /* transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s; */
+  transition: all 250ms ease;
+  transition-property: box-shadow, border-color;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  outline: none;
+  color: #6d6d6d;
+}
+
+.form-control:read-only {
+  background-color: #fff;
+}
+
+.form-control:active, .form-control:focus {
+  border-color: #4680ff;
+  box-shadow: 0 0 10px -4px;
+
+}
+
+main {
+  position: absolute;
+  width: calc(100vw - 250px);
+  height: calc(100vh - 83px);
+  top: 83px;
+  left: 250px;
+  overflow: auto;
+  padding: 30px;
+}

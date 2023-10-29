@@ -1,0 +1,24 @@
+.user-profile {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .user-info {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  /* You can add more CSS styles to further customize your user profile page */
+  

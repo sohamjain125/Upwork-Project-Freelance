@@ -1,0 +1,7 @@
+.sectionStyle {
+    display: flex;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 0 0 20px -7px;
+    margin-bottom: 30px;
+}

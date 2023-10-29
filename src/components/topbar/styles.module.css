@@ -1,0 +1,122 @@
+
+.navBar {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0 0 18px -13px;
+    z-index: 1;
+}
+
+.blackSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #303549;
+    width: 250px;
+    padding: 10px;
+}
+
+.whiteSection {
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.profileDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.whiteSection .rightItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.whiteSection .leftItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.whiteSection .rightItem .profilePicture {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.whiteSection .rightItem h3 {
+    margin-right: 20px;
+}
+
+.round {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: #fff solid 1px;
+    color: #fff;
+    background-color: #303548;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.redDot {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: none;
+    background-color: #ff6565;
+    transform: translate(10px, -8px);
+}
+
+.profileDiv i {
+    font-size: 25px;
+}
+
+.floatingExBox {
+    background-color: #fff;
+    position: absolute;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 0 0 7px -3px;
+    top: 83px;
+    right: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.floatingBoxItem {
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.floatingBoxItem i {
+    margin: 0 20px 0 0px;
+}
+
+.floatingBoxItem:hover {
+    background-color: #f1f1f1;
+}
+
+.floatingBoxItem:active {
+    background-color: #c9c9c9;
+}
+
+.profileDiv i {
+    cursor: pointer;
+}
